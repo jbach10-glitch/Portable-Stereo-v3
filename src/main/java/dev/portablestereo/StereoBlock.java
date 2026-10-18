@@ -1,6 +1,5 @@
 package dev.portablestereo;
 
-import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.component.DataComponents;
@@ -50,8 +49,6 @@ public class StereoBlock extends BaseEntityBlock {
                 .setValue(HAS_RECORD, false)
                 .setValue(PLAYING, false));
     }
-
-    
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
