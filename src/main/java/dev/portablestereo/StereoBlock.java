@@ -51,10 +51,7 @@ public class StereoBlock extends BaseEntityBlock {
                 .setValue(PLAYING, false));
     }
 
-    @Override
-    protected MapCodec<? extends BaseEntityBlock> codec() {
-        return simpleCodec(StereoBlock::new);
-    }
+    
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
