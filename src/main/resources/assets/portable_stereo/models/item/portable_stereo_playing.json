@@ -1,0 +1,7 @@
+{
+  "parent": "portable_stereo:item/portable_stereo",
+  "textures": {
+    "particle": "portable_stereo:item/portable_stereo_playing",
+    "body": "portable_stereo:item/portable_stereo_playing"
+  }
+}

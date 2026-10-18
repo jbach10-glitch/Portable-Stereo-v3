@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,has_record=false,playing=false": {
+      "model": "portable_stereo:block/portable_stereo"
+    },
+    "facing=north,has_record=false,playing=true": {
+      "model": "portable_stereo:block/portable_stereo"
+    },
+    "facing=north,has_record=true,playing=false": {
+      "model": "portable_stereo:block/portable_stereo_loaded"
+    },
+    "facing=north,has_record=true,playing=true": {
+      "model": "portable_stereo:block/portable_stereo_playing"
+    },
+    "facing=south,has_record=false,playing=false": {
+      "model": "portable_stereo:block/portable_stereo",
+      "y": 180
+    },
+    "facing=south,has_record=false,playing=true": {
+      "model": "portable_stereo:block/portable_stereo",
+      "y": 180
+    },
+    "facing=south,has_record=true,playing=false": {
+      "model": "portable_stereo:block/portable_stereo_loaded",
+      "y": 180
+    },
+    "facing=south,has_record=true,playing=true": {
+      "model": "portable_stereo:block/portable_stereo_playing",
+      "y": 180
+    },
+    "facing=east,has_record=false,playing=false": {
+      "model": "portable_stereo:block/portable_stereo",
+      "y": 90
+    },
+    "facing=east,has_record=false,playing=true": {
+      "model": "portable_stereo:block/portable_stereo",
+      "y": 90
+    },
+    "facing=east,has_record=true,playing=false": {
+      "model": "portable_stereo:block/portable_stereo_loaded",
+      "y": 90
+    },
+    "facing=east,has_record=true,playing=true": {
+      "model": "portable_stereo:block/portable_stereo_playing",
+      "y": 90
+    },
+    "facing=west,has_record=false,playing=false": {
+      "model": "portable_stereo:block/portable_stereo",
+      "y": 270
+    },
+    "facing=west,has_record=false,playing=true": {
+      "model": "portable_stereo:block/portable_stereo",
+      "y": 270
+    },
+    "facing=west,has_record=true,playing=false": {
+      "model": "portable_stereo:block/portable_stereo_loaded",
+      "y": 270
+    },
+    "facing=west,has_record=true,playing=true": {
+      "model": "portable_stereo:block/portable_stereo_playing",
+      "y": 270
+    }
+  }
+}

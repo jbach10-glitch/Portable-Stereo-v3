@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "portable_stereo:playing",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "portable_stereo:item/portable_stereo_playing"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:has_component",
+      "component": "portable_stereo:loaded_disc",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "portable_stereo:item/portable_stereo_loaded"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "portable_stereo:item/portable_stereo"
+      }
+    }
+  }
+}
