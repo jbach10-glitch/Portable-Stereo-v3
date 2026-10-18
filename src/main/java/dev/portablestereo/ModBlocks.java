@@ -21,9 +21,7 @@ public final class ModBlocks {
                     .setId(STEREO_KEY)
                     .strength(0.5F)
                     .sound(SoundType.METAL)
-                    .noOcclusion()
-                    .pushReaction(PushReaction.BLOCK)));
-
+                    .noOcclusion()));
     public static final BlockEntityType<StereoBlockEntity> STEREO_BLOCK_ENTITY = Registry.register(
             BuiltInRegistries.BLOCK_ENTITY_TYPE,
             PortableStereo.id("portable_stereo"),
